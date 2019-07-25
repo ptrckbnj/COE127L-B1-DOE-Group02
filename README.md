@@ -1,5 +1,7 @@
 # COE127L-B1-DOE-Group02
 
+Abstract— In this study, an image processing using gaussian blur was developed. Gaussian blur is a result for blurring an image gaussian function, it is widely used for reducing the image noise and reduce detail in graphics software. The view effect for this is having a bokeh effect and low-pass filter. The researchers specifically used the theory for OpenMP for multi-threading the process for filtering an image into gaussian blur compared processing without OpenMP. The researchers found out that using the OpenMP with higher kernels processed faster rather than without OpenMP which can save time. This study used C++ as a software for developing the program.
+
 ### The aim for this project is to implement a conversion of an image to gaussian blur using multi-threading. 
 
 Gaussian blur is the result of blurring an image by a Gaussian function. It is a widely used effect in graphics software, typically to reduce image noise and reduce detail. 
