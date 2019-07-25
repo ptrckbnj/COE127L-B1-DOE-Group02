@@ -8,10 +8,11 @@ The Design of Experiment is about comparing the execution time of using the Gaus
 
 ## Objectives 
 
-To create a Gaussian blur program that uses serial processing on a .bmp image 
-
-To create a Gaussian blur program that uses multithreading on a .bmp image 
-
+To create a Gaussian blur program that uses serial processing on a images
+To create a Gaussian blur program that uses multithreading on image
 To prove that multithreading process is faster than serial process. 
-
 To be able to know the theories for multi-threading and matplotlib python. 
+
+
+## OpenMP
+Parallel code with OpenMP marks, through a special directive, sections to be executed in parallel. The part of the code marked to run in parallel will cause threads to form. The main tread is the master thread. The slave threads all run in parallel and run the same code. Each thread executes the parallelized section of the code independently. When a thread finishes, it joins the master. When all threads finished, the master continues with code following the parallel section. The idea of Gaussian smoothing is to use this 2-D distribution as a point-spread function, and this is achieved by convolution. Since the image is stored as a collection of discrete pixel we need to produce a discrete approximation to the Gaussian function before we can perform the convolution. In theory, the Gaussian distribution is non-zero everywhere, which would require an infinitely large convolution kernel, but in practice it is effectively zero more than about three standard deviations from the mean, and so we can truncate the kernel at this point.
