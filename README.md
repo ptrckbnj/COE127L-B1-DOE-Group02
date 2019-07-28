@@ -25,3 +25,21 @@ Parallel code with OpenMP marks, through a special directive, sections to be exe
 ![1](https://user-images.githubusercontent.com/50915438/61888340-eca6e980-af35-11e9-91bc-8f87a0a8808f.png)
 
 ![3](https://user-images.githubusercontent.com/50915438/61888464-1bbd5b00-af36-11e9-8941-ddb9c752b7c4.png)
+
+
+
+## Install-OpenCv
+
+shell scripts to install different version of OpenCV in different distributions of Linux
+
+### Ubuntu
+
+$ cd Ubuntu
+$ chmod +x * 
+$ ./opencv_latest.sh
+
+
+After installing the openCV package, run the main program in the terminal on ubuntu or linux.
+
+g++ -Wall MainProgram.cpp -fopenmp pkg-config --libs opencv -o blur
+./blur <typeofimage>
