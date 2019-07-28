@@ -34,11 +34,13 @@ shell scripts to install different version of OpenCV in different distributions 
 
 ### Ubuntu
 
+```
 $ cd Ubuntu
 
 $ chmod +x *
 
 $ ./opencv_latest.sh
+```
 
 
 After installing the openCV package, run the main program in the terminal on ubuntu or linux.
