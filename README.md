@@ -45,5 +45,7 @@ $ ./opencv_latest.sh
 
 After installing the openCV package, run the main program in the terminal on ubuntu or linux.
 
+```
 g++ -Wall MainProgram.cpp -fopenmp pkg-config --libs opencv -o blur
 ./blur <typeofimage>
+```
