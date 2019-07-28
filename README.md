@@ -49,3 +49,14 @@ After installing the openCV package, run the main program in the terminal on ubu
 g++ -Wall MainProgram.cpp -fopenmp pkg-config --libs opencv -o blur
 ./blur <typeofimage>
 ```
+
+## Graph
+
+For graphing the result, check first the version of your python in the terminal using and type the following commands for checking the graph.
+
+```
+$ python --version
+python graphinOpenMP.py
+```
+
+
